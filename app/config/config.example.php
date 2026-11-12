@@ -8,8 +8,8 @@ return [
     ],
     'storage_path' => dirname(__DIR__, 2) . '/storage',
     'telegram' => [
-        'bot_token' => '',
-        'it_staff_chat_id' => '',
-        'it_head_chat_id' => '',
+        'bot_token' => 'xx',
+        'it_staff_chat_id' => 'xx',
+        'it_head_chat_id' => 'xx',
     ],
 ];
