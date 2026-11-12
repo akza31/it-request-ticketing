@@ -17,7 +17,7 @@ if (!class_exists('Mpdf\\Mpdf')) {
     exit('mPDF belum terpasang. Jalankan composer install dari folder aplikasi.');
 }
 $mpdf = new \Mpdf\Mpdf(['format' => 'A4', 'margin_top' => 15, 'margin_bottom' => 15]);
-$html = '<div style="text-align:center;border-bottom:2px solid #17365d;padding-bottom:10px"><h2>RSU ISLAM KLATEN</h2><strong>FORMULIR PERMOHONAN PROGRAM DIGITALISASI</strong></div>';
+$html = '<div style="text-align:center;border-bottom:2px solid #17365d;padding-bottom:10px"><h2>RSU ABCDE</h2><strong>FORMULIR PERMOHONAN PROGRAM DIGITALISASI</strong></div>';
 $html .= '<p style="text-align:center">Nomor: ' . htmlspecialchars($r['request_no']) . '</p>';
 $html .=
     '<h4>I. IDENTITAS PEMOHON</h4><table width="100%"><tr><td>Nama</td><td>: '
